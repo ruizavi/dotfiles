@@ -19,21 +19,21 @@ $white: $foreground;
 
 .eww_bar {
   background-color: $background;
-  padding: 0.3rem;
+  padding: 4px;
 }
 
 .launcher_icon {
   color: $cyan;
   font-family: "Font Awesome 6 Pro";
-  font-size: 2.3em;
-  padding: 0.5rem 0;
+  font-size: 28px;
+  margin: 8px 8px 8px;
 }
 
 .works {
   font-family: "Font Awesome 6 Free", "Font Awesome 6 Brands";
-  padding: 0.2rem 0.7rem 0.2rem 0.7rem;
+  padding: 8px 12px;
   background-color: $black;
-  border-radius: 5px;
+  border-radius: 6px;
 }
 
 .0,
@@ -49,7 +49,7 @@ $white: $foreground;
 .044,
 .055,
 .066 {
-  margin: 0.55rem 0 0.55rem 0;
+  margin: 12px 0;
 }
 
 /* Unoccupied */
@@ -79,64 +79,64 @@ $white: $foreground;
 
 .0:nth-child(1),
 .0:nth-child(3) {
-  font-size: 1.5em;
+  font-size: 20px;
 }
 .0:nth-child(2) {
-  font-size: 1.4em;
+  font-size: 20px;
 }
 .0:nth-child(4),
 .0:nth-child(5) {
-  font-size: 1.6em;
+  font-size: 20px;
 }
 .0:nth-child(6) {
-  font-size: 1.7em;
+  font-size: 20px;
 }
 .01,
 .011,
 .03,
 .033 {
-  font-size: 1.5em;
+  font-size: 20px;
 }
 .02,
 .022 {
-  font-size: 1.4em;
+  font-size: 20px;
 }
 .04,
 .05,
 .044,
 .055 {
-  font-size: 1.6em;
+  font-size: 20px;
 }
 .06,
 .066 {
-  font-size: 1.7em;
+  font-size: 20px;
 }
 
 .control {
-  padding: 0.5rem 0.5rem 0 0.5rem;
+  padding: 8px;
   font-family: Material Icons;
-  font-size: 1.6em;
+  font-size: 24px;
   background-color: $black;
   border-radius: 5px;
 }
 .bat {
   font-family: JetBrainsMono Nerd Font;
-  font-size: 1.2em;
-  padding-right: 0.55rem;
+  //font-size: 1.2em;
+  margin: 4px 8px 4px 0;
   color: $blue;
 }
 .wifi-icon {
-  margin-bottom: 0.2rem;
-  font-size: 1.4em;
+  margin: 4px 10px 4px 0;
+  //font-size: 1.4em;
   color: $magenta;
 }
 .brightness-icon {
-  margin: 0.2rem 0 0.2rem 0;
+  margin: 4px 0;
   color: $yellow;
 }
 .volume-icon {
-  margin: 0.2rem 0 0 0;
-  font-size: 1.6em;
+  margin: 4px 0;
+  //font-size: 1.6em;
   color: $green;
 }
 scale trough {
